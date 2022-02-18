@@ -1,6 +1,6 @@
 # twitter-hovercard
 The HTML is very self explanatory and very easy. We create wrappers around and then we create three <div> tags which will contain the content.
-  COPY
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,18 +25,11 @@ The HTML is very self explanatory and very easy. We create wrappers around and t
 The main-profile div will basically contain the Profile Picture, Name, Handle and the Follow button. Which will be in the first row. We will then use flexbox to style it.
 
 
-COPY
-
-COPY
-
-COPY
-
-COPY
 <div class="main-profile">
   <div class="user-info">
     <img src="./profile.jpg" alt="Profile Pic" />
-    <h3>Max Programming</h3>
-    <p>@MaxProgramming1</p>
+    <h3>Meet Programming</h3>
+    <p>@MeetProgramming1</p>
   </div>
   <div class="follow-btn">
     <button>Follow</button>
@@ -46,20 +39,14 @@ COPY
 This div will contain the bio of the user, in this case my bio. You can separate it into different lines using the <br /> tag.
 
 
-COPY
 
-COPY
-
-COPY
-
-COPY
 <div class="user-bio">
   <p>
     👨‍💻 Programmer, Learner, YTuber, Blogger, and Cricket lover!
     <br />
     😊 15 years old
     <br />
-    My name is Usman
+    My name is Meet
     <br />
     ☪ Muslim
     <br />
@@ -72,13 +59,7 @@ This is the simplest one of all. You just create two <div> tags inside it with F
 We use the <b> tags to bolden out the numbers.
 
 
-COPY
 
-COPY
-
-COPY
-
-COPY
 <div class="user-follows">
   <div><b>613</b> Following</div>
   <div><b>471</b> Followers</div>
@@ -94,13 +75,7 @@ At the start, we set the margin and padding to 0, and set the box-sizing to bord
 We style the container to center everything on the page
 
 
-COPY
-
-COPY
-
-COPY
-
-COPY
+Y
 * {
   margin: 0;
   padding: 0;
@@ -121,13 +96,7 @@ image.png
 Now to style the card div, we and add shadow, border radius and padding to it.
 
 
-COPY
 
-COPY
-
-COPY
-
-COPY
 .card {
   box-shadow: 1px 1px 10px 1px #a1a1a1;
   border-radius: 10px;
@@ -139,13 +108,7 @@ image.png
 Now as the main-profile contains the main details, we'll position it better using Flexbox.
 
 
-COPY
 
-COPY
-
-COPY
-
-COPY
 .main-profile {
   display: flex;
   justify-content: space-between;
@@ -154,13 +117,6 @@ COPY
 And then we will add some stylings to make the profile picture smaller, increase the size for the name, and change the color of the handle.
 
 
-COPY
-
-COPY
-
-COPY
-
-COPY
 .user-info img {
   width: 100px;
   border-radius: 50%;
@@ -182,13 +138,6 @@ Let's style the Follow button now.
 Here, we set the border and the text to the twitter blue color, the background is set to the same color but transparent. We make the text bold, and add a hover effect with a transition.
 
 
-COPY
-
-COPY
-
-COPY
-
-COPY
 .follow-btn button {
   font-size: 1.5rem;
   border: 3px solid #1da1f2;
@@ -214,13 +163,7 @@ image.png
 The bio is fairly easy. We just change the color of the text, add some margin and change the color of the <a> tags like the styles of Twitter.
 
 
-COPY
 
-COPY
-
-COPY
-
-COPY
 .user-bio {
   color: #0f1419;
   margin-bottom: 10px;
@@ -240,13 +183,7 @@ image.png
 This is the easiest part. We use flexbox, we add some margins to the <div>. And we change the color of the text.
 
 
-COPY
 
-COPY
-
-COPY
-
-COPY
 .user-follows {
   display: flex;
   color: #5b7083;
@@ -263,7 +200,4 @@ And that is how you recreate Twitter's hover card using HTML and CSS. I hope you
 
 Here's the source code.
 
-GitHub - max-programming/twitter-hovercard
-Contribute to max-programming/twitter-hovercard development by creating an account on GitHub.
-github.com
 Thanks for reading!
