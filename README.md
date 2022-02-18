@@ -42,13 +42,13 @@ This div will contain the bio of the user, in this case my bio. You can separate
 
 <div class="user-bio">
   <p>
-    👨‍💻 Programmer, Learner, YTuber, Blogger, and Cricket lover!
+    👨‍💻 Programmer, Learner and football lover!
     <br />
-    😊 15 years old
+    😊 22years old
     <br />
     My name is Meet
     <br />
-    ☪ Muslim
+    #proudtobeindian
     <br />
   
   </p>
